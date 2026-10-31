@@ -43,12 +43,12 @@
   <body>
     <main>
       <h1>SpinBrawl privacy policy</h1>
-      <p class="date">Last updated 30 October 2026</p>
+      <p class="date">Last updated 31 October 2026</p>
 
       <p>SpinBrawl is an arcade game made by an independent developer. This policy explains what happens to your information when you play it.</p>
 
       <h2>The short version</h2>
-      <p>Everything the game remembers stays on your phone. The only time anything leaves it is when you play online (with friends, or in the Normal, Ranked and weekend lobbies): then your player name, your spinner, your level and rank and your moves go to the other players in your match, through our room server, and nothing is kept once the match or room closes. No account, no ads, no tracking.</p>
+      <p>The game saves your progress on your phone and keeps a copy in our cloud save, under an anonymous account it makes by itself (no email, no password), so you don't lose it. When you play online (with friends, or in the Normal, Ranked and weekend lobbies), your player name, your spinner, your level and rank and your moves also go to the other players in your match, through our room server, and nothing about you is kept once the match or room closes. No ads, no tracking.</p>
 
       <h2>What the game stores on your phone</h2>
       <p>To keep your progress, the game saves these on your device only:</p>
@@ -57,30 +57,33 @@
         <li>your levels, ranks, coins, quests, chests, skins, icons and maps,</li>
         <li>your career stats and settings, such as sound on or off.</li>
       </ul>
-      <p>Uninstalling the game or clearing its data deletes all of it. Android's own backup may copy app data to your Google account if you turned backup on; that backup is run by Android and Google, not by SpinBrawl.</p>
+      <p>Uninstalling the game or clearing its data deletes all of it from your phone. Android's own backup may copy app data to your Google account if you turned backup on; that backup is run by Android and Google, not by SpinBrawl.</p>
+
+      <h2>Cloud save</h2>
+      <p>So your progress survives a lost or reset phone, the game also keeps a copy of it online, in a database run by Supabase (Supabase, Inc. acts as our service provider). The first time it starts, the game makes an anonymous account for your phone by itself: a random account id, with no email, no password and no sign-in screen. The copy holds your player name and the same progress as on your phone (levels, ranks, coins, gems, quests, chests, skins, icons and maps). Only your phone's account can read or change it, and it is used only to keep your progress, never for ads or profiles. It is kept until you ask us to delete it (see Contact, with your player name).</p>
 
       <h2>Playing online</h2>
       <p>The game connects to SpinBrawl's room server, which runs on Cloudflare (Cloudflare, Inc. acts as our service provider), in two cases: when you create or join a friends room with a room code, and when you search the Normal, Ranked or weekend lobbies, which match you with other people searching at the same time. While you are in a room or lobby:</p>
       <ul>
         <li>the other players in it see your player name, your spinner, its skin and your profile icon; in the Normal, Ranked and weekend lobbies they also see your level, your rank and the map you picked. The lobby also uses a hidden ranked rating so Ranked wins and losses are fair; nobody sees it;</li>
         <li>during a match, your controls (the stick and the buttons you press) go to the phone of the player hosting it (the room's creator, or the first player in the lobby), which runs the match and sends everyone what happens on the arena;</li>
-        <li>the room server only passes these messages between the players in the room or lobby. It keeps your name, spinner, level and rank only while you are in it and deletes them when you leave or the match ends. Nothing is kept for later, and nothing is used for ads or profiles.</li>
+        <li>the room server only passes these messages between the players in the room or lobby. It keeps your name, spinner, level and rank only while you are in it and deletes them when you leave or the match ends. Nothing is kept for later, and nothing is used for ads or profiles. To estimate waiting times, each lobby keeps for up to an hour how long its recent matches took to start: just durations, with no names, ids or anything else about the players.</li>
       </ul>
       <p>To connect you, Cloudflare's network necessarily handles your device's IP address, as any website or online service does. SpinBrawl does not log or store it. The connection is encrypted (secure WebSocket, TLS).</p>
       <p>You don't have to use online play: the rest of the game works fully offline, and matches against AI never connect. There is no chat, public or private.</p>
 
       <h2>What the game does not do</h2>
       <ul>
-        <li>No account or sign-in.</li>
+        <li>No sign-in: the anonymous account is made by the game, with no email or password.</li>
         <li>No ads and no advertising ID.</li>
         <li>No analytics, tracking or crash-reporting services.</li>
         <li>No purchases with real money.</li>
         <li>No location, contacts, camera, microphone or files.</li>
-        <li>No network requests outside online play: the game, its art and its fonts are all inside the app.</li>
+        <li>No network requests except online play and the cloud save: the game, its art and its fonts are all inside the app.</li>
       </ul>
 
       <h2>Your rights</h2>
-      <p>If you are in the European Union or the UK, you have the right to access, correct or delete your personal data and to object to its processing. Because SpinBrawl keeps nothing about you on a server once your room or match closes, there is usually nothing to access or delete; your progress on your phone is deleted by clearing the app's data or uninstalling it. Online play uses your data only to run the match you chose to join (the legal basis is providing the service you asked for). You can also complain to your data protection authority.</p>
+      <p>If you are in the European Union or the UK, you have the right to access, correct or delete your personal data and to object to its processing. Your cloud save is the only thing SpinBrawl keeps about you on a server; write to us (see Contact) with your player name to get a copy of it or have it deleted. Your progress on your phone is deleted by clearing the app's data or uninstalling it. Online play uses your data only to run the match you chose to join (the legal basis is providing the service you asked for). You can also complain to your data protection authority.</p>
 
       <h2>Children</h2>
       <p>SpinBrawl is not directed at children under 13 and keeps no data about anyone.</p>
